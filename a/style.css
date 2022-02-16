@@ -1,0 +1,44 @@
+html {
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+li {
+    text-align: center;
+    color: darkgray;
+}
+
+a {
+    color: darkblue;
+    float: right;
+}
+
+form {
+    text-align: center;
+}
+
+.pic {
+    width: 250px;
+    height: 250px;
+}
+
+image {
+    width: 250px;
+    height: 250px;
+}
+
+input[type=search] {
+    transition: width 0.4s ease-in-out;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input[type=search]:focus {
+    width: 40%;
+}
